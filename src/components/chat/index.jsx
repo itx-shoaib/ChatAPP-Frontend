@@ -1,5 +1,6 @@
 import React from 'react'
 import { MultiChatSocket, MultiChatWindow, useMultiChatLogic } from 'react-chat-engine-advanced'
+import Header from "@/components/customHeader"
 
 const Chat = () => {
     const chatProps = useMultiChatLogic(
