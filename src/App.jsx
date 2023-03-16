@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
+import Chat from "./components/chat"
 
 function App() {
   return (
