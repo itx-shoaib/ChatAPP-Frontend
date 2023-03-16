@@ -1,7 +1,14 @@
+import { useState } from "react"
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
+
 function App() {
   return (
     <div className="App">
-      <h1>ChatAPP</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/chat" element={<Chat />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
